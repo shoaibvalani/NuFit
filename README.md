@@ -10,13 +10,13 @@ Dynamic User Interaction: Offers features like adding exercises to routines, and
 Responsive Design: Crafted with Bootstrap 4.0, ensuring a seamless experience across various devices and screen sizes.
 Tools and Technologies Used:
 
-Frontend: HTML, CSS (with Bootstrap 4.0 for responsive design), JavaScript (for client-side scripting).
-Backend: PHP for server-side scripting.
-Database: MySQL for storing user data and workout information.
-API Integration: Exercise DB API from API Ninjas for real-time exercise data.
-AJAX: Used for asynchronous data transfer between the frontend and backend, enhancing the application's interactivity without reloading the webpage.
-Security: Emphasis on secure coding practices to protect user data and prevent SQL injection.
-Version Control: Managed with Git, showcasing the development process and iterative improvements.
+## Frontend: HTML, CSS (with Bootstrap 4.0 for responsive design), JavaScript (for client-side scripting).
+## Backend: PHP for server-side scripting.
+## Database: MySQL for storing user data and workout information.
+## API Integration: Exercise DB API from API Ninjas for real-time exercise data.
+## AJAX: Used for asynchronous data transfer between the frontend and backend, enhancing the application's interactivity without reloading the webpage.
+## Security: Emphasis on secure coding practices to protect user data and prevent SQL injection.
+## Version Control: Managed with Git, showcasing the development process and iterative improvements.
 The NuFit Workout Log stands out for its comprehensive approach to fitness management, seamless integration of various technologies, and a focus on user-centered design. This project not only demonstrates technical proficiency in web development but also highlights a commitment to creating practical, user-friendly applications.
 
 # Repository Contents:
