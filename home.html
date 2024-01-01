@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoaib Valani | Workout Log</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Zeyada&display=swap');
+        body, h1, #footer {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1 {
+            color: #2d477c;
+            font-size: 4em;
+        }
+        #header {
+            padding-top: 60px; 
+            text-align: left;
+            color: white;
+        }
+        #main{
+            font-family: 'Courier New', Courier, monospace;
+            width: 100%;
+            text-align: center;
+            line-height: 500px;
+            color: #2d477c;
+            margin-bottom: 60px;
+        }
+        #headline{
+            font-family: 'Courier New', Courier, monospace;
+            height: 200px;
+            width: auto;
+            color: #2d477c;
+            display: flex;
+            margin-top: 20px;
+        }
+        #product-description{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 0;
+        }
+        .description {
+            background-color: papayawhip; 
+            color: #2d477c; 
+            border: 2px solid #2d477c; 
+            border-radius: 10px; 
+            padding: 10px; 
+            margin: 10px; 
+            text-align: center; 
+            width: auto; 
+            max-width: 200px; 
+            display: inline-block;
+            height: auto; 
+            line-height: 1.2; 
+            overflow-wrap: break-word;
+        }
+        #logo, #welcome{
+            display: inline-flex;
+        }
+        #welcome{
+            line-height: 200px;
+            align-items: center;
+            justify-content: left;
+        }
+        .logo-home{
+            width: 200px;
+            height: auto;
+        }
+        #product-description1{
+            color: #2d477c;
+            flex-wrap: nowrap;
+            
+        }
+        #product-description2{
+            color: #2d477c;
+            
+        }
+        #product-description3{
+            color: #2d477c;
+            
+        }
+        #footer {
+            background-color: #2d477c;
+            color: lightblue;
+            text-align: center;
+            line-height: 50px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1001;
+        }
+        
+        #info-row {
+            width: auto; 
+            max-width: 1200px;
+            height: auto;
+            margin: auto;
+            display: flex;
+            /* justify-content: space-between; */
+            
+            background-color: papayawhip;
+            flex-wrap: nowrap;
+            margin-bottom: 20px;
+        }
+        .image-container, .info-container{
+            /* display: flex; */
+            padding: 10px;
+            max-height: 400px;
+        }
+        #instructions-text{
+            font-size: small;
+        }
+        #exercise-img img {
+            width: 250px; 
+            object-fit: contain;
+        }
+        #results-list{
+            list-style: none;
+            display: block;
+        }
+        #exercise-list-item{
+            margin: 10px
+        }
+        .exercise-name{
+            text-align: left;
+        }
+        #search-result{
+            margin-bottom: 60px;
+        }
+        #info-row {
+            display: flex;
+            align-items: flex-start; 
+            justify-content: flex-start;
+            background-color: papayawhip;
+            margin: auto;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .info-container {
+            width: auto;
+            max-height: 600px;
+            display: block;
+            text-align: left;
+            overflow-y: auto; 
+        }
+        .image-container{
+            width: auto;
+            display: block;
+            text-align: left;
+        }
+        #instructions-text{
+            font-size: small;
+            justify-content: left;
+
+        }
+        #info{
+            justify-content: left;
+        }
+        .exercise-list-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            background-color: papayawhip;
+            padding: 20px;
+        }
+        #Project-summary{
+            background-color: #2d477c; 
+            color: white; 
+            border: none; 
+            padding: 10px 20px; 
+            margin-top: 20px; 
+            border-radius: 5px; 
+            font-family: 'Courier New', Courier, monospace; 
+            font-size: 1em; 
+            cursor: pointer; 
+            margin: 10px;
+            margin-left: 15px;
+        }
+
+        #Project-summary:hover {
+            background-color: #1a2e50; 
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <ul id="navbar">
+        <li>
+            <div class="navbar-left">
+                <h2 id="name">NuFit</h2>
+            </div>
+        </li>
+        <li>
+            <div class="navbar-right">
+                <ul>
+                    <li><a id="active-menu" href="home.html">Home</a></li>
+                    <li><a href="my_workout.php">My Workout</a></li>
+                    <li><a href="explore.php">Explore</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+
+    <div class="container mt-5">
+        <div class="row align-items-center">
+            <div id="header" class="col">
+                <h1>Welcome Home!</h1>
+            </div>
+        </div>
+        <div id="main">
+            <div id="headline">
+                <div id="logo" class="col-auto">
+                    <img class="logo-home" src="img/Final_Project_logo1.png" alt="Logo">
+                </div>
+                <div id="welcome"> 
+                <h5>
+                    Welcome to NuFit! This is an interactive fitness application that can be used by anyone!
+                    Whether you are getting started in the gym or are just looking for a free way of tracking your workouts, 
+                    NuFit will allow you to customize your next gym sessions and learn how to properly perform your exercises 
+                    so that you can optimize your gains! 
+                </h5>
+                <a href="Final Project Summary Shoaib Valani.pdf" download="ProjectSummary.pdf" class="btn btn-primary" id="Project-summary">Project Summary</a>
+            </div>
+        </div>
+
+        <div id="product-description"> 
+            <div id="product-description1" class="description">
+                Customize different workouts for each gym session!
+            </div>
+        
+            <div id="product-description2" class="description">
+                Search up new exercises by name, fitness goal, muscle group, or difficulty level!
+                You can add these to new workouts which can be saved to a database of workouts!
+            </div>
+        
+            <div id="product-description3" class="description">
+                Learn new exercises and correct form!
+            </div>
+        </div>
+
+        <div id="instructions">
+            <h2 id="Sample">Sample</h2>
+            <h3 class="exercise-name">Incline Hammer Curl</h3>
+            <div id="info-row" class="d-flex">
+                
+                <!-- <div id="exercise-img" class="image-container">
+                    <img src="https://static.strengthlevel.com/images/illustrations/incline-hammer-curl-1000x1000.jpg" alt="incline-hammer-curl-1000x1000">
+                </div> IMAGE CONTAINER -->
+            
+                <div class="info-container">
+                    <div id="info">
+                        <h4 id="info-head">Info</h4>
+                        <p id="muscle-group">Muscle group: Biceps</p>
+                        <p id="equipment">Equipment: Dumbbell</p>
+                        <p id="difficulty">Difficulty: Beginner</p>
+                    </div>
+                    <div id="instructions1">
+                        <h4 id="instructions-header">Instructions</h4>
+                        <p id="instructions-text">Choose a flat bench and place a dumbbell on each side of it. Place the right leg on top of the end of the bench, bend your torso forward from the waist until your upper body is parallel to the floor, and place your right hand on the other end of the bench for support. Use the left hand to pick up the dumbbell on the floor and hold the weight while keeping your lower back straight. The palm of the hand should be facing your torso. This will be your starting position. Pull the resistance straight up to the side of your chest, keeping your upper arm close to your side and keeping the torso stationary. Breathe out as you perform this step. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. Also, make sure that the force is performed with the back muscles and not the arms. Finally, the upper torso should remain stationary and only the arms should move. The forearms should do no other work except for holding the dumbbell; therefore do not try to pull the dumbbell up using the forearms. Lower the resistance straight down to the starting position. Breathe in as you perform this step. Repeat the movement for the specified amount of repetitions. Switch sides and repeat again with the other arm.  
+                            Variations: One-arm rows can also be performed using a high pulley or a low pulley instead of a dumbbell.</p>
+                    </div>
+                </div><!--INFO CONTAINER-->
+            </div><!--INFO ROW-->
+        </div>
+    
+        </div>
+        
+    </div> <!-- .container -->
+
+    <div id="footer">
+        Contact Shoaib Valani at valani@usc.edu for inquiries and feedback! 
+    </div>
+
+    
+
+</body>
+
+</html>

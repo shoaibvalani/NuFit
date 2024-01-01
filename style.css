@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Zeyada&display=swap');
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    color: #2d477c;
+    font-size: 4em;
+}
+#navbar h2{
+   justify-content: space-evenly;
+   margin-right: auto;
+}
+#navbar {
+    background-color: #2d477c;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; 
+    list-style: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    opacity: 95%;
+    margin-bottom: 10px;
+}
+.navbar-left, .navbar-right {
+    display: flex;
+    align-items: center;
+}
+.navbar-right li {
+    display: inline-block; 
+    margin-left: 20px; 
+}
+#navbar a {
+    color: white;
+    padding: 0 15px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    
+}
+#navbar a:hover,
+#navbar a:focus {
+    color: lightblue;
+}
+.logo {
+    width: 150px;
+    margin-right: 20px; /* Space between logo and title */
+    margin-top: 20px;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2d477c;
+    color: lightblue;
+    text-align: center;
+    line-height: 50px;
+    z-index: 1001;
+    clear: both; 
+    /* position: relative;  */
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+}
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .description {
+        flex-basis: 100%; 
+        margin-bottom: 20px;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+}
